@@ -1,0 +1,1 @@
+tr "[:upper:]" "[:lower:]" < frankenstein.txt | head -298 | tail -44 | grep -o -w "[a-zA-Z]\+" | sort -n | uniq -c | sort -n -r | head -10

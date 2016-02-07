@@ -1,0 +1,1 @@
+grep -o -w "[a-zA-Z]" frankenstein.txt | sort -n | uniq -c | sort -n -r | head -1

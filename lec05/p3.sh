@@ -1,0 +1,1 @@
+grep -o -w "monster" frankenstein.txt | wc -w
